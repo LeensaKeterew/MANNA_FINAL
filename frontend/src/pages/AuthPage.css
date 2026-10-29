@@ -1,0 +1,28 @@
+/* Shared auth styles: the log-in / register forms on the splash page use
+   these, and .auth-error is also the site-wide error banner. */
+
+.auth-subtitle {
+  color: var(--color-text-muted);
+  margin-bottom: 28px;
+}
+
+.auth-form {
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.auth-forgot {
+  display: block;
+  text-align: left;
+  font-size: 0.85rem;
+  margin: -10px 0 20px;
+}
+
+.auth-error {
+  background: var(--color-error-bg);
+  color: var(--color-error-text);
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}

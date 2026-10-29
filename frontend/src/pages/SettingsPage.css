@@ -1,0 +1,97 @@
+.settings-main {
+  width: 100%;
+}
+
+.settings-card {
+  background: var(--color-card);
+  border-radius: var(--radius-card);
+  padding: 24px 28px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-card);
+}
+
+.settings-card h4 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: var(--color-text-muted);
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.account-row {
+  display: flex;
+  gap: 28px;
+}
+
+.account-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.account-avatar img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.change-picture-btn {
+  border: none;
+  background: transparent;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.account-fields {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 20px;
+}
+
+.save-btn {
+  margin-top: 4px;
+}
+
+.privacy-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.privacy-row:last-child {
+  border-bottom: none;
+}
+
+.danger-zone p {
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+}
+
+.btn-danger {
+  padding: 10px 22px;
+  border-radius: var(--radius-pill);
+  border: none;
+  background: var(--color-danger);
+  color: var(--color-on-accent);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .account-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .account-fields {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}

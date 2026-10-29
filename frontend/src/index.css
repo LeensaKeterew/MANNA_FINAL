@@ -1,0 +1,279 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Nunito Sans', sans-serif;
+
+  --color-bg: #EDD9C2;
+  --color-bg-alt: #EDD9C2;
+  --color-card: #f3e7d0;
+  --color-input: #F7E7D8;
+  --color-primary: #7c2b28;
+  --color-primary-dark: #5e1f1d;
+  --color-text: #3c2a20;
+  --color-text-muted: #8a7460;
+  --color-border: #ddc9a3;
+  --color-success: #4a7c4e;
+  --color-success-bg: #e4efdf;
+  --color-error-bg: #f6dede;
+  --color-error-text: #8a2f2f;
+  --color-danger: #8a2f2f;
+
+  --color-on-primary: #ffffff;   
+  --color-on-accent: #ffffff;    
+  --color-on-gold: #3c2a20;     
+  --color-accent-green-text: #3A4D20; 
+
+  --color-accent-green: #3A4D20;
+  --color-accent-gold: #DFAC62;
+  --color-accent-gold-rgb: 223, 172, 98;
+
+  --radius-pill: 999px;
+  --radius-card: 18px;
+  --shadow-card: 0 2px 10px rgba(60, 42, 32, 0.08);
+  --shadow-glass: 0 8px 28px rgba(60, 42, 32, 0.18);
+  --color-scrim: rgba(60, 42, 32, 0.75);   
+  --text-glow: rgba(255, 255, 255, 0.6);   
+  --splash-overlay: transparent;           
+
+  color-scheme: light;
+
+
+  --content-width: 700px;
+}
+
+
+:root[data-theme="dark"] {
+  --color-bg: #1f1714;
+  --color-bg-alt: #1f1714;
+  --color-card: #2b201b;
+  --color-input: #352822;
+  --color-primary: #d9776f;
+  --color-primary-dark: #c25f58;
+  --color-text: #f0e4d4;
+  --color-text-muted: #b8a58f;
+  --color-border: #4a3a30;
+  --color-success: #8fc593;
+  --color-success-bg: #27382a;
+  --color-error-bg: #4a2a28;
+  --color-error-text: #f3b6b1;
+  --color-danger: #b3433f;
+
+  --color-on-primary: #1f1714;
+  --color-accent-green-text: #9bbf6a;
+
+  --shadow-card: 0 2px 10px rgba(0, 0, 0, 0.45);
+  --shadow-glass: 0 8px 28px rgba(0, 0, 0, 0.5);
+  --text-glow: rgba(31, 23, 20, 0.75);
+  --splash-overlay: rgba(31, 23, 20, 0.6);
+
+  color-scheme: dark;
+}
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+
+  body {
+    @apply m-0 bg-manna-bg font-body text-manna-text antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply m-0 mb-2 font-heading text-manna-primary;
+  }
+
+  a {
+    @apply text-manna-primary no-underline hover:underline;
+  }
+
+  /* Every form control uses the MANNA body font — never the browser default. */
+  button,
+  input,
+  textarea,
+  select,
+  optgroup {
+    font-family: var(--font-body);
+  }
+
+  input,
+  textarea,
+  select {
+    @apply text-[0.95rem] text-manna-text;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  /* ---------- shared form elements ---------- */
+  .field {
+    @apply mb-[18px] text-left;
+  }
+
+  .field label {
+    @apply mb-1.5 block text-[0.85rem] font-bold text-manna-primary;
+  }
+
+  .field input,
+  .field textarea,
+  .field select {
+    @apply w-full rounded-pill border-none bg-manna-input px-[18px] py-[14px] font-body text-[0.95rem] text-manna-text;
+  }
+
+  .field textarea {
+    @apply resize-y rounded-[18px];
+  }
+
+  .field input:focus,
+  .field textarea:focus,
+  .field select:focus {
+    @apply outline outline-2 outline-manna-primary;
+  }
+
+  .btn-primary {
+    @apply inline-block w-full rounded-pill border-none bg-manna-input px-6 py-[14px] text-[0.95rem] font-extrabold uppercase tracking-[1px] text-manna-primary;
+    transition: background 0.15s ease;
+  }
+
+  .btn-primary:hover {
+    @apply bg-manna-primary text-manna-on-primary;
+  }
+
+  .btn-secondary {
+    @apply rounded-pill border border-solid border-manna-primary bg-transparent px-5 py-2.5 font-bold text-manna-primary;
+  }
+
+  .btn-secondary:hover {
+    @apply bg-manna-primary text-manna-on-primary;
+  }
+
+  /* toggle switch, reused on Settings */
+  .toggle {
+    @apply relative h-6 w-[42px] shrink-0 cursor-pointer rounded-pill border-none bg-manna-border;
+  }
+
+  .toggle.on {
+    @apply bg-manna-green;
+  }
+
+  .toggle .knob {
+    @apply absolute left-[3px] top-[3px] h-[18px] w-[18px] rounded-full bg-manna-on-accent;
+    transition: left 0.15s ease;
+  }
+
+  .toggle.on .knob {
+    @apply left-[21px];
+  }
+
+  /* hashtag pill, shared by PostCard, PostDetailPage and Sidebar's trending list */
+  .hashtag-pill {
+    @apply inline-block rounded-pill bg-manna-gold px-3.5 py-1.5 text-[0.85rem] font-bold text-manna-on-gold;
+  }
+
+  a.hashtag-pill {
+    @apply no-underline hover:opacity-80;
+  }
+
+  /* app layout shell used by every authenticated page */
+  .app-shell {
+    @apply flex min-h-screen flex-col;
+  }
+
+  .app-body {
+    @apply mx-auto flex w-full max-w-[1400px] flex-1 gap-6 p-6 max-[768px]:flex-col max-[768px]:gap-3 max-[768px]:p-3;
+  }
+
+  /* A page with no Sidebar: its <main> is the only child — centre that column. */
+  .app-body > main:only-child {
+    @apply mx-auto w-full max-w-content;
+  }
+
+  /* ---- loading / error / empty states and small controls ---- */
+  .app-status {
+    @apply flex min-h-[40vh] items-center justify-center font-semibold text-manna-muted;
+  }
+
+  .status-message {
+    @apply py-4 font-semibold text-manna-muted;
+  }
+
+  .empty-state {
+    @apply py-3 italic text-manna-muted;
+  }
+
+  .auth-success {
+    @apply mb-3 rounded-xl bg-manna-success-bg px-3.5 py-2.5 font-semibold text-manna-success;
+  }
+
+  .like-toggle {
+    @apply cursor-pointer border-0 bg-transparent p-0 text-inherit;
+    font: inherit;
+  }
+
+  .like-toggle.liked {
+    @apply font-bold text-manna-primary;
+  }
+
+  .like-toggle:disabled {
+    @apply cursor-default opacity-60;
+  }
+
+  .comment-delete,
+  .comment-edit {
+    @apply cursor-pointer border-0 bg-transparent p-0 pl-2.5 text-[0.8rem] text-manna-muted underline;
+    font: inherit;
+    font-size: 0.8rem;
+  }
+
+  .report-box {
+    @apply mt-5 flex flex-col gap-2.5;
+  }
+
+  .request-row {
+    @apply mb-2.5 flex items-center gap-3;
+  }
+
+  .request-row img {
+    @apply h-10 w-10 rounded-full object-cover;
+  }
+
+  .request-row strong {
+    @apply flex-1;
+  }
+
+  .inline-actions {
+    @apply flex flex-wrap items-center gap-2;
+  }
+
+  .album-remove-btn {
+    @apply -mt-2 mb-5;
+  }
+
+  .file-input {
+    @apply font-body text-[0.9rem] text-manna-text;
+  }
+
+  /* inline comment editor (same pill look as the add-comment box) */
+  .comment-edit-form {
+    @apply mt-1 flex gap-2;
+  }
+
+  .comment-edit-form input {
+    @apply flex-1 rounded-pill border-none bg-manna-input px-4 py-2.5;
+  }
+}

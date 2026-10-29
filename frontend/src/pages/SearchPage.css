@@ -1,0 +1,27 @@
+.search-section {
+  @apply mb-8;
+}
+
+.search-section h2 {
+  @apply mb-3 text-[1.1rem];
+}
+
+.search-section .request-row a {
+  @apply text-manna-primary no-underline;
+}
+
+.search-section .request-row span {
+  @apply text-[0.85rem] text-manna-muted;
+}
+
+.search-tags {
+  @apply flex flex-wrap gap-3;
+}
+
+.search-tag {
+  @apply flex items-center gap-2;
+}
+
+.search-count {
+  @apply text-[0.8rem] text-manna-muted;
+}

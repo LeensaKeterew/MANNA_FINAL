@@ -1,0 +1,27 @@
+.sidebar {
+  @apply w-[220px] shrink-0 max-[768px]:w-full;
+}
+
+.sidebar-section {
+  @apply mb-7;
+}
+
+.sidebar-section h4 {
+  @apply mb-3 font-body text-[0.75rem] font-extrabold uppercase tracking-[1px] text-manna-muted;
+}
+
+.feed-toggle {
+  @apply flex rounded-pill bg-manna-input p-1;
+}
+
+.feed-toggle button {
+  @apply flex-1 rounded-pill border-none bg-transparent py-2 font-bold text-manna-primary;
+}
+
+.feed-toggle button.active {
+  @apply bg-manna-green text-manna-on-accent;
+}
+
+.hashtag-list {
+  @apply flex flex-col gap-2 max-[768px]:flex-row max-[768px]:flex-wrap;
+}

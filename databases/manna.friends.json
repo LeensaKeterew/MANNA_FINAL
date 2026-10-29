@@ -1,0 +1,138 @@
+[{
+  "_id": {
+    "$oid": "6abebfe320b498ae434d933c"
+  },
+  "requester": {
+    "$oid": "6abebfda20b498ae434d9326"
+  },
+  "recipient": {
+    "$oid": "6abebfdb20b498ae434d9328"
+  },
+  "createdAt": {
+    "$date": "2026-09-02T10:00:00.000Z"
+  },
+  "respondedAt": {
+    "$date": "2026-09-02T11:00:00.000Z"
+  },
+  "status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "6ade7c13439d99a49235fb59"
+  },
+  "recipient": {
+    "$oid": "6abebfda20b498ae434d9326"
+  },
+  "requester": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  },
+  "createdAt": {
+    "$date": "2026-09-02T10:00:00.000Z"
+  },
+  "respondedAt": {
+    "$date": "2026-09-02T11:00:00.000Z"
+  },
+  "status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "6ade7c13439d99a49235fb5a"
+  },
+  "recipient": {
+    "$oid": "6abebfdb20b498ae434d9327"
+  },
+  "requester": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  },
+  "createdAt": {
+    "$date": "2026-09-02T10:00:00.000Z"
+  },
+  "respondedAt": {
+    "$date": "2026-09-02T11:00:00.000Z"
+  },
+  "status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "6ade7c13439d99a49235fb5c"
+  },
+  "recipient": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  },
+  "requester": {
+    "$oid": "6abebfdc20b498ae434d9329"
+  },
+  "createdAt": {
+    "$date": "2026-09-02T10:00:00.000Z"
+  },
+  "status": "pending"
+},
+{
+  "_id": {
+    "$oid": "6ade7c13439d99a49235fb5d"
+  },
+  "recipient": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  },
+  "requester": {
+    "$oid": "6ade7c0a439d99a49235fb28"
+  },
+  "createdAt": {
+    "$date": "2026-09-02T10:00:00.000Z"
+  },
+  "respondedAt": {
+    "$date": "2026-09-02T11:00:00.000Z"
+  },
+  "status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "6ade7c13439d99a49235fb5e"
+  },
+  "recipient": {
+    "$oid": "6abebfda20b498ae434d9326"
+  },
+  "requester": {
+    "$oid": "6ade7c0a439d99a49235fb28"
+  },
+  "createdAt": {
+    "$date": "2026-09-02T10:00:00.000Z"
+  },
+  "respondedAt": {
+    "$date": "2026-09-02T11:00:00.000Z"
+  },
+  "status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "6ade7c14439d99a49235fb60"
+  },
+  "recipient": {
+    "$oid": "6ade7c0b439d99a49235fb2a"
+  },
+  "requester": {
+    "$oid": "6ade7c0a439d99a49235fb29"
+  },
+  "createdAt": {
+    "$date": "2026-09-02T10:00:00.000Z"
+  },
+  "respondedAt": {
+    "$date": "2026-09-02T11:00:00.000Z"
+  },
+  "status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "6ae3aea64bd119b9135987ba"
+  },
+  "requester": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  },
+  "recipient": {
+    "$oid": "6ade7c0b439d99a49235fb2a"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-10-29T20:37:58.083Z"
+  }
+}]

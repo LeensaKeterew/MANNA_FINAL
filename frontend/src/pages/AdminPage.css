@@ -1,0 +1,141 @@
+.admin-main {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.admin-subtitle {
+  color: var(--color-text-muted);
+  margin: 0 0 16px;
+}
+
+.admin-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.admin-tabs button {
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  color: var(--color-primary);
+  border-radius: var(--radius-pill);
+  padding: 8px 16px;
+  font-family: var(--font-body);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.admin-tabs button.active {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border-color: var(--color-primary);
+}
+
+.admin-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--color-card);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: 12px 16px;
+  margin-bottom: 10px;
+}
+
+.admin-row img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.admin-row img.square {
+  border-radius: 10px;
+}
+
+.admin-row-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.admin-row-text strong,
+.admin-row-text span,
+.admin-row-text p {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
+.admin-row-text span,
+.admin-row-text p {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  margin: 2px 0 0;
+}
+
+.admin-badge {
+  display: inline-block !important;
+  background: var(--color-accent-gold);
+  color: var(--color-text) !important;
+  border-radius: var(--radius-pill);
+  padding: 2px 10px;
+  font-size: 0.72rem !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.admin-edit-form {
+  background: var(--color-card);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-secondary.active {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+.report-group {
+  margin-bottom: 16px;
+}
+
+.report-group .admin-row {
+  margin-bottom: 4px;
+}
+
+.report-list {
+  margin: 0 0 0 56px;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.report-list li {
+  padding: 3px 0;
+  overflow-wrap: anywhere;
+}
+
+.report-list strong {
+  color: var(--color-text);
+}
+
+/* spacing under the Open / Resolved report filter buttons */
+.admin-toolbar {
+  margin-bottom: 14px;
+}

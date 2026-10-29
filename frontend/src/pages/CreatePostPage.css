@@ -1,0 +1,24 @@
+.create-post-panel {
+  @apply mx-auto w-full max-w-[640px] flex-1 rounded-card bg-manna-card p-8 shadow-card max-[600px]:p-5;
+}
+
+.create-post-subtitle {
+  @apply mb-6 text-manna-muted;
+}
+
+.create-post-form {
+  @apply text-left;
+}
+
+.create-post-row {
+  @apply grid grid-cols-[1fr_140px] gap-4 max-[600px]:grid-cols-1;
+}
+
+.create-post-actions {
+  @apply mt-2 flex justify-end gap-3;
+}
+
+.create-post-actions .btn-primary,
+.create-post-actions .btn-secondary {
+  @apply w-auto min-w-[120px];
+}

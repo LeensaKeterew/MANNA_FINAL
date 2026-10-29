@@ -1,0 +1,12 @@
+.home-feed {
+  @apply w-full min-w-0;
+  flex: 0 1 var(--content-width);
+}
+
+.home-subtitle {
+  @apply mb-6 text-manna-muted;
+}
+
+.home-body {
+  @apply justify-center;
+}

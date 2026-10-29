@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "6abebfe420b498ae434d9344"
+  },
+  "postId": {
+    "$oid": "6abebfdd20b498ae434d932d"
+  },
+  "reporterId": {
+    "$oid": "6abebfda20b498ae434d9326"
+  },
+  "createdAt": {
+    "$date": "2026-09-16T09:00:00.000Z"
+  },
+  "details": "Demo report: please review this post.",
+  "reasonId": {
+    "$oid": "6abebfe320b498ae434d933e"
+  },
+  "status": "open"
+},
+{
+  "_id": {
+    "$oid": "6abf531cfdbb68a87010a456"
+  },
+  "postId": {
+    "$oid": "6abebfdd20b498ae434d932c"
+  },
+  "reporterId": {
+    "$oid": "6abebfda20b498ae434d9326"
+  },
+  "reasonId": {
+    "$oid": "6abebfe420b498ae434d9341"
+  },
+  "details": "I did this first",
+  "status": "open",
+  "createdAt": {
+    "$date": "2026-10-02T06:45:48.036Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ade7c15439d99a49235fb63"
+  },
+  "postId": {
+    "$oid": "6abebfdf20b498ae434d9330"
+  },
+  "reporterId": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  },
+  "createdAt": {
+    "$date": "2026-09-16T10:00:00.000Z"
+  },
+  "details": "Demo report.",
+  "reasonId": {
+    "$oid": "6abebfe320b498ae434d933f"
+  },
+  "status": "open"
+},
+{
+  "_id": {
+    "$oid": "6ade7c15439d99a49235fb64"
+  },
+  "reporterId": {
+    "$oid": "6abebfdb20b498ae434d9327"
+  },
+  "postId": {
+    "$oid": "6abebfdf20b498ae434d9330"
+  },
+  "createdAt": {
+    "$date": "2026-09-16T10:00:00.000Z"
+  },
+  "details": "Demo report.",
+  "reasonId": {
+    "$oid": "6abebfe320b498ae434d933e"
+  },
+  "status": "open"
+},
+{
+  "_id": {
+    "$oid": "6ade7c15439d99a49235fb65"
+  },
+  "reporterId": {
+    "$oid": "6abebfdb20b498ae434d9328"
+  },
+  "postId": {
+    "$oid": "6abebfdf20b498ae434d9330"
+  },
+  "createdAt": {
+    "$date": "2026-09-16T10:00:00.000Z"
+  },
+  "details": "Demo report.",
+  "reasonId": {
+    "$oid": "6abebfe420b498ae434d9343"
+  },
+  "status": "open"
+}]

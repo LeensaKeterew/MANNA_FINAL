@@ -1,0 +1,281 @@
+[{
+  "_id": {
+    "$oid": "6abebfda20b498ae434d9324"
+  },
+  "usernameLower": "manna_admin",
+  "avatar": "https://i.pravatar.cc/150?img=68",
+  "bio": "Keeping the Manna table tidy and welcoming for everyone.",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "email": "admin@manna.test",
+  "name": "Manna Admin",
+  "role": "admin",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "username": "manna_admin",
+  "password": "Admin123!"
+},
+{
+  "_id": {
+    "$oid": "6abebfda20b498ae434d9326"
+  },
+  "usernameLower": "david_mensah",
+  "avatar": "https://i.pravatar.cc/150?img=12",
+  "bio": "Garden-to-table cooking and Sunday stews.",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "email": "david@manna.test",
+  "name": "David Mensah",
+  "role": "user",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "username": "david_mensah",
+  "password": "Password123!",
+  "pronouns": "he/him",
+  "socialLinks": [
+    "https://example.com/david"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6abebfdb20b498ae434d9327"
+  },
+  "usernameLower": "ruth_adeyemi",
+  "avatar": "https://i.pravatar.cc/150?img=32",
+  "bio": "Grain bowls, gratitude and good company.",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "email": "ruth@manna.test",
+  "name": "Ruth Adeyemi",
+  "role": "user",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "username": "ruth_adeyemi",
+  "password": "Password123!"
+},
+{
+  "_id": {
+    "$oid": "6abebfdb20b498ae434d9328"
+  },
+  "usernameLower": "samuel_obi",
+  "avatar": "https://i.pravatar.cc/150?img=51",
+  "bio": "Baker. Sabbath loaves every Friday.",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "email": "samuel@manna.test",
+  "name": "Samuel Obi",
+  "role": "user",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "username": "samuel_obi",
+  "password": "Password123!"
+},
+{
+  "_id": {
+    "$oid": "6abebfdc20b498ae434d9329"
+  },
+  "usernameLower": "esther_kimani",
+  "avatar": "https://i.pravatar.cc/150?img=25",
+  "bio": "Fresh salads inspired by the fruit of the Promised Land.",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "email": "esther@manna.test",
+  "name": "Esther Kimani",
+  "role": "user",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "username": "esther_kimani",
+  "password": "Pass123!",
+  "pronouns": "",
+  "socialLinks": []
+},
+{
+  "_id": {
+    "$oid": "6abec0e042dd02144770b539"
+  },
+  "username": "Jake",
+  "usernameLower": "jake",
+  "email": "rankrushpeak@gmail.com",
+  "passwordHash": "$2a$10$AgTdSQvUxQh5MdhEnCDVKeeXsceg3YbIwbxo8mdEKTFlSjOyki7o6",
+  "name": "Jake",
+  "avatar": "",
+  "bio": "",
+  "role": "user",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "createdAt": {
+    "$date": "2026-10-01T20:21:52.930Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6abf51dcfdbb68a87010a450"
+  },
+  "username": "Mike",
+  "usernameLower": "mike",
+  "email": "rankpeak@gmail.com",
+  "passwordHash": "$2a$10$QPPvY5pHyN6DLEmY0y7g5eCL9SXDYHkiK9p9z52Eyk4vss3VAIw9m",
+  "name": "Mike",
+  "avatar": "",
+  "bio": "",
+  "role": "user",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "createdAt": {
+    "$date": "2026-10-02T06:40:28.226Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  },
+  "usernameLower": "miriam_okafor",
+  "avatar": "/uploads/1793306036809-d656a65a4e65.jpg",
+  "bio": "Home cook & faith-driven foodie 🍞❤️ Sharing recipes that nourish body and soul. “For the Lord your God is bringing you into a good land…” — Deuteronomy 8:7",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "email": "miriam@manna.test",
+  "name": "Miriam Okafor",
+  "password": "Password123!",
+  "role": "user",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "username": "miriam_okafor",
+  "pronouns": "she/her",
+  "socialLinks": [
+    "https://instagram.com/miriam.cooks",
+    "https://example.com/miriam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ade7c0a439d99a49235fb28"
+  },
+  "usernameLower": "test_user",
+  "avatar": "https://i.pravatar.cc/150?img=15",
+  "bio": "Account used for marking and testing.",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "email": "test@test.com",
+  "name": "Test User",
+  "password": "test1234",
+  "role": "user",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "username": "test_user",
+  "pronouns": "they/them",
+  "socialLinks": [
+    "https://example.com/test"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ade7c0a439d99a49235fb29"
+  },
+  "usernameLower": "naomi_levi",
+  "avatar": "/uploads/1793308252106-258ccce828b7.jpg",
+  "bio": "Honey cakes, olive branches and shared tables.",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "email": "naomi@manna.test",
+  "name": "Naomi Levi",
+  "password": "Password123!",
+  "role": "user",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "username": "naomi_levi",
+  "pronouns": "",
+  "socialLinks": []
+},
+{
+  "_id": {
+    "$oid": "6ade7c0b439d99a49235fb2a"
+  },
+  "usernameLower": "caleb_ndlovu",
+  "avatar": "https://i.pravatar.cc/150?img=33",
+  "bio": "Braai master who believes every meal is a blessing.",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "email": "caleb@manna.test",
+  "name": "Caleb Ndlovu",
+  "password": "Password123!",
+  "role": "user",
+  "settings": {
+    "privateAccount": false,
+    "showLocation": true,
+    "allowTagging": true,
+    "showEmail": false,
+    "notifyComments": true,
+    "notifyFollowers": true
+  },
+  "username": "caleb_ndlovu"
+}]

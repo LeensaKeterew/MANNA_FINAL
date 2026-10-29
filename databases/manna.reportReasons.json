@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6abebfe320b498ae434d933e"
+  },
+  "nameLower": "spam or misleading",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "description": "Advertising, scams or content that is not what it claims to be.",
+  "name": "Spam or misleading"
+},
+{
+  "_id": {
+    "$oid": "6abebfe320b498ae434d933f"
+  },
+  "nameLower": "inappropriate content",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "description": "Content that is offensive or unsuitable for the community.",
+  "name": "Inappropriate content"
+},
+{
+  "_id": {
+    "$oid": "6abebfe320b498ae434d9340"
+  },
+  "nameLower": "harassment or bullying",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "description": "Targets or attacks another member.",
+  "name": "Harassment or bullying"
+},
+{
+  "_id": {
+    "$oid": "6abebfe420b498ae434d9341"
+  },
+  "nameLower": "copyright infringement",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "description": "Uses someone else's photo or recipe without permission.",
+  "name": "Copyright infringement"
+},
+{
+  "_id": {
+    "$oid": "6abebfe420b498ae434d9342"
+  },
+  "nameLower": "misinformation",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "description": "Contains false or harmful claims.",
+  "name": "Misinformation"
+},
+{
+  "_id": {
+    "$oid": "6abebfe420b498ae434d9343"
+  },
+  "nameLower": "other",
+  "createdAt": {
+    "$date": "2026-09-01T10:00:00.000Z"
+  },
+  "description": "Something else that moderators should look at.",
+  "name": "Other"
+}]

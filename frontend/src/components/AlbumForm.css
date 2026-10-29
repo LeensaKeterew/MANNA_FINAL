@@ -1,0 +1,42 @@
+/* Clickable hashtag suggestions under the album hashtag input */
+.hashtag-suggestions {
+  margin-top: 10px;
+}
+
+.hashtag-suggestions-title {
+  margin: 0 0 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
+
+.hashtag-suggestions-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* same gold pill as every other hashtag, but a button: dashed edge + pointer + hover so it reads as clickable */
+.hashtag-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  border: 1px dashed var(--color-on-gold);
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.hashtag-chip:hover {
+  opacity: 0.8;
+}
+
+.hashtag-chip:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.hashtag-chip-count {
+  font-size: 0.7rem;
+  font-weight: 700;
+  opacity: 0.75;
+}

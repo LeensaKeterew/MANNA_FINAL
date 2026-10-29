@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6ade7c1b439d99a49235fb93"
+  },
+  "seedKey": "m1",
+  "createdAt": {
+    "$date": "2026-09-15T10:02:00.000Z"
+  },
+  "fromId": {
+    "$oid": "6abebfdb20b498ae434d9327"
+  },
+  "text": "Have you tried making the honey roast chicken?",
+  "toId": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ade7c1b439d99a49235fb94"
+  },
+  "seedKey": "m2",
+  "createdAt": {
+    "$date": "2026-09-15T10:05:00.000Z"
+  },
+  "fromId": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  },
+  "text": "Yes! It turned out incredible. The herb crust was perfect.",
+  "toId": {
+    "$oid": "6abebfdb20b498ae434d9327"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ade7c1b439d99a49235fb95"
+  },
+  "seedKey": "m3",
+  "createdAt": {
+    "$date": "2026-09-15T10:07:00.000Z"
+  },
+  "fromId": {
+    "$oid": "6abebfdb20b498ae434d9327"
+  },
+  "text": "Love your sourdough post! What's your starter hydration?",
+  "toId": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ade7c1b439d99a49235fb96"
+  },
+  "seedKey": "m4",
+  "createdAt": {
+    "$date": "2026-09-15T10:09:00.000Z"
+  },
+  "fromId": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  },
+  "text": "80% hydration, 48hr cold ferment. It's become a weekly ritual.",
+  "toId": {
+    "$oid": "6abebfdb20b498ae434d9327"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ade7c1c439d99a49235fb98"
+  },
+  "seedKey": "m5",
+  "createdAt": {
+    "$date": "2026-09-15T09:00:00.000Z"
+  },
+  "fromId": {
+    "$oid": "6abebfda20b498ae434d9326"
+  },
+  "text": "Sharing the lentil recipe with you tonight.",
+  "toId": {
+    "$oid": "6ade7c08439d99a49235fb24"
+  }
+}]

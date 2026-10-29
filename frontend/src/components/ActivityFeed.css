@@ -1,0 +1,35 @@
+.activity-card {
+  @apply mb-6 overflow-hidden rounded-card bg-manna-card px-6 py-5 shadow-card;
+}
+
+.activity-card .post-card-author a {
+  @apply text-manna-primary no-underline;
+}
+
+.activity-card .post-card-author a:hover {
+  @apply underline;
+}
+
+.activity-album {
+  @apply flex items-center gap-4 rounded-lg bg-manna-bg p-3 no-underline;
+}
+
+.activity-album img {
+  @apply h-20 w-20 shrink-0 rounded-lg object-cover;
+}
+
+.activity-album p {
+  @apply m-0 text-[0.9rem] text-manna-text;
+}
+
+.activity-album span {
+  @apply text-[0.78rem] text-manna-muted;
+}
+
+.activity-photos {
+  @apply flex flex-wrap gap-2;
+}
+
+.activity-photos img {
+  @apply h-24 w-24 rounded-lg object-cover;
+}

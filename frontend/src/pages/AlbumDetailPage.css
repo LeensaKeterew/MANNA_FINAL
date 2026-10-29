@@ -1,0 +1,7 @@
+.album-back-link {
+  @apply mb-4 inline-block font-bold;
+}
+
+.album-detail-count {
+  @apply mb-5 text-manna-muted;
+}

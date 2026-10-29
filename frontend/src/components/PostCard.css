@@ -1,0 +1,82 @@
+.post-card {
+  @apply mb-6 overflow-hidden rounded-card bg-manna-card shadow-card;
+}
+
+.post-card-image {
+  @apply block h-[320px] w-full object-cover;
+}
+
+.post-card-body {
+  @apply px-6 pb-6 pt-5;
+}
+
+.post-card-author {
+  @apply mb-3 flex items-center gap-2.5;
+}
+
+.post-card-author img {
+  @apply h-9 w-9 rounded-full object-cover;
+}
+
+.post-card-author div {
+  @apply flex flex-col leading-[1.3];
+}
+
+.post-card-author span {
+  @apply text-[0.75rem] text-manna-muted;
+}
+
+.post-card-title h3 {
+  @apply mb-1.5;
+}
+
+.post-card-text {
+  @apply m-0 mb-3 leading-normal text-manna-text;
+}
+
+.post-card-verse {
+  @apply mb-3.5 rounded-lg bg-manna-bg px-3.5 py-2.5 text-[0.9rem] italic text-manna-primary-dark;
+  border-left: 3px solid var(--color-accent-gold);
+}
+
+.post-card-hashtags {
+  @apply mb-3.5 flex flex-wrap gap-2;
+}
+
+.post-card-hashtags .hashtag-pill {
+  @apply px-3 py-[5px] text-[0.78rem];
+}
+
+.post-card-footer {
+  @apply flex gap-5 pt-3 text-[0.85rem] text-manna-muted;
+  border-top: 1px solid var(--color-border);
+}
+
+.post-card-share {
+  @apply ml-auto cursor-pointer font-bold text-manna-primary;
+}
+
+.post-card-hidden .post-card-body {
+  @apply py-8 text-center;
+}
+
+.post-card-hidden p {
+  @apply mb-4 text-manna-muted;
+}
+
+.post-card-comments {
+  @apply mb-3.5 rounded-lg bg-manna-bg px-3.5 py-2.5 text-[0.88rem];
+}
+
+.post-card-comments p {
+  @apply m-0 mb-1 text-manna-text;
+  overflow-wrap: anywhere;
+}
+
+.post-card-viewall {
+  @apply text-[0.82rem] font-bold text-manna-primary no-underline;
+}
+
+.post-card-viewall:hover {
+  @apply underline;
+}

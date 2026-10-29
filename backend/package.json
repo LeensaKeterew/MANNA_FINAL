@@ -1,0 +1,19 @@
+{
+  "name": "manna-backend",
+  "private": true,
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": { "node": ">=20.12" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.9.0",
+    "multer": "^2.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+# Run everything with:  docker compose up --build
+services:
+  backend:
+    build: ./backend
+    env_file:
+      - ./backend/.env        # MONGODB_URI, MONGODB_DB, JWT_SECRET (never baked into the image)
+    environment:
+      PORT: 3000
+      UPLOAD_DIR: /app/uploads
+    volumes:
+      - manna_uploads:/app/uploads
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  manna_uploads:
